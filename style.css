@@ -1,0 +1,179 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Rubik", sans-serif;
+}
+/* navbar css start */
+
+.navbar-container {
+  background: #ffff;
+  display: flex;
+  justify-content: center;
+  padding: 0px 30px;
+}
+.navbar {
+  width: 100%;
+  max-width: 1700px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 25px 0px;
+}
+.navbar-links-container a {
+  padding: 30px 18px;
+  text-decoration: none;
+  color: #000019;
+  font-weight: 500;
+  margin: 15px;
+}
+.navbar-links-container a:last-of-type {
+  padding: 18px;
+  border-radius: 5px;
+  font-size: 14px;
+  color: #ffff;
+  background: #ec5b53;
+  letter-spacing: 1px;
+}
+/* navbar css end */
+/* section css start */
+
+.section {
+  background-image: url(./img/h1_hero.jpg);
+  background-position: center center;
+  background-size: cover;
+  height: 1000px;
+  display: flex;
+  align-items: center;
+}
+.section-container {
+  max-width: 100%;
+}
+.section-content-text {
+  max-width: 600px;
+  padding: 0px 10px;
+  display: flex;
+  flex-direction: column;
+  gap: 38px;
+  margin-left: 360px;
+}
+
+.get-solutions {
+  font-size: 18px;
+  line-height: 1.2;
+  font-weight: 300;
+  color: #ec5b53;
+  text-transform: uppercase;
+}
+.designer-intro {
+  font-family: "Rufina", serif;
+  max-width: 570px;
+  line-height: 1.2;
+  font-size: 70px;
+  font-weight: 700;
+  color: #002d5b;
+  text-transform: capitalize;
+}
+.some-text {
+  max-width: 570px;
+  font-family: "Rubik", sans-serif;
+  color: #10285d;
+  font-size: 16px;
+  font-weight: normal;
+  line-height: 30px;
+}
+.landing-page-links {
+  display: flex;
+  gap: 20px;
+  margin-top: 5px;
+}
+.learn-more {
+  background: #ec5b53;
+  padding: 18px 44px;
+  text-transform: capitalize;
+  font-family: "Rubik", sans-serif;
+  color: #fff;
+  text-decoration: none;
+  font-size: 14px;
+  border-radius: 5px;
+  font-weight: 500;
+  letter-spacing: 1px;
+  display: inline-block;
+}
+.hire-me {
+  padding: 17px 57px;
+  text-transform: capitalize;
+  font-family: "Rubik", sans-serif;
+  color: #464d65;
+  text-decoration: none;
+  font-size: 14px;
+  border-radius: 5px;
+  font-weight: 500;
+  letter-spacing: 1px;
+  border: 1px solid #ec5b533d;
+  display: inline-block;
+}
+/* section css end */
+
+.design-with-passion-container {
+  padding: 195px 0px 90px;
+  display: flex;
+  justify-content: center;
+}
+.test {
+  width: 100%;
+  max-width: 1200px;
+  display: flex;
+  justify-content: flex-start;
+  gap: 100px;
+}
+.design-with-passion {
+  max-width: 470px;
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}
+.design-with-passion h3 {
+  font-size: 30px;
+  color: #000a2d;
+  font-family: "Rufina", serif;
+  line-height: 1.5;
+}
+.design-with-passion p {
+  font-family: "Rubik", sans-serif;
+  color: #10285d;
+  font-size: 16px;
+  line-height: 30px;
+}
+.query-discussion {
+  width: 100%;
+  max-width: 500px;
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}
+.query-discussion h3 {
+  font-family: "Rufina", serif;
+  font-size: 40px;
+  color: #000a2d;
+  font-weight: 700;
+  line-height: 1.5;
+}
+.query-discussion p {
+  color: #464d65;
+  font-size: 20px;
+  font-weight: 500;
+}
+.query-discussion a {
+  color: #000a2d;
+  font-size: 35px;
+  font-weight: 500;
+}
+.query-discussion span {
+  font-size: 35px;
+}
+.email-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
